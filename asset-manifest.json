@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/pow-faucet/static/css/main.266173d9.chunk.css",
-    "main.js": "/pow-faucet/static/js/main.4074b2a6.chunk.js",
-    "main.js.map": "/pow-faucet/static/js/main.4074b2a6.chunk.js.map",
-    "runtime-main.js": "/pow-faucet/static/js/runtime-main.3a6cd69c.js",
-    "runtime-main.js.map": "/pow-faucet/static/js/runtime-main.3a6cd69c.js.map",
-    "static/js/2.a93ca0d2.chunk.js": "/pow-faucet/static/js/2.a93ca0d2.chunk.js",
-    "static/js/2.a93ca0d2.chunk.js.map": "/pow-faucet/static/js/2.a93ca0d2.chunk.js.map",
+    "main.js": "/pow-faucet/static/js/main.dcc3fd97.chunk.js",
+    "main.js.map": "/pow-faucet/static/js/main.dcc3fd97.chunk.js.map",
+    "runtime-main.js": "/pow-faucet/static/js/runtime-main.9089d174.js",
+    "runtime-main.js.map": "/pow-faucet/static/js/runtime-main.9089d174.js.map",
+    "static/js/2.4575f308.chunk.js": "/pow-faucet/static/js/2.4575f308.chunk.js",
+    "static/js/2.4575f308.chunk.js.map": "/pow-faucet/static/js/2.4575f308.chunk.js.map",
     "index.html": "/pow-faucet/index.html",
-    "precache-manifest.7253d2d86417694e0c31b4d4f07026f5.js": "/pow-faucet/precache-manifest.7253d2d86417694e0c31b4d4f07026f5.js",
+    "precache-manifest.6a64061de9293c884f0cd0f5ec695b1f.js": "/pow-faucet/precache-manifest.6a64061de9293c884f0cd0f5ec695b1f.js",
     "service-worker.js": "/pow-faucet/service-worker.js",
-    "static/css/main.266173d9.chunk.css.map": "/pow-faucet/static/css/main.266173d9.chunk.css.map",
-    "static/js/2.a93ca0d2.chunk.js.LICENSE.txt": "/pow-faucet/static/js/2.a93ca0d2.chunk.js.LICENSE.txt"
+    "static/js/2.4575f308.chunk.js.LICENSE.txt": "/pow-faucet/static/js/2.4575f308.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a6cd69c.js",
-    "static/js/2.a93ca0d2.chunk.js",
-    "static/css/main.266173d9.chunk.css",
-    "static/js/main.4074b2a6.chunk.js"
+    "static/js/runtime-main.9089d174.js",
+    "static/js/2.4575f308.chunk.js",
+    "static/js/main.dcc3fd97.chunk.js"
   ]
 }
