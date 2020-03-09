@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/pow-faucet/static/js/main.dcc3fd97.chunk.js",
-    "main.js.map": "/pow-faucet/static/js/main.dcc3fd97.chunk.js.map",
+    "main.js": "/pow-faucet/static/js/main.1dcb637c.chunk.js",
+    "main.js.map": "/pow-faucet/static/js/main.1dcb637c.chunk.js.map",
     "runtime-main.js": "/pow-faucet/static/js/runtime-main.9089d174.js",
     "runtime-main.js.map": "/pow-faucet/static/js/runtime-main.9089d174.js.map",
     "static/js/2.4575f308.chunk.js": "/pow-faucet/static/js/2.4575f308.chunk.js",
     "static/js/2.4575f308.chunk.js.map": "/pow-faucet/static/js/2.4575f308.chunk.js.map",
     "index.html": "/pow-faucet/index.html",
-    "precache-manifest.6a64061de9293c884f0cd0f5ec695b1f.js": "/pow-faucet/precache-manifest.6a64061de9293c884f0cd0f5ec695b1f.js",
+    "precache-manifest.d7ecb14168d1b90694cc1d60d44c040a.js": "/pow-faucet/precache-manifest.d7ecb14168d1b90694cc1d60d44c040a.js",
     "service-worker.js": "/pow-faucet/service-worker.js",
     "static/js/2.4575f308.chunk.js.LICENSE.txt": "/pow-faucet/static/js/2.4575f308.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9089d174.js",
     "static/js/2.4575f308.chunk.js",
-    "static/js/main.dcc3fd97.chunk.js"
+    "static/js/main.1dcb637c.chunk.js"
   ]
 }

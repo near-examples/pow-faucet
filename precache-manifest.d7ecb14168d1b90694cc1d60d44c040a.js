@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f96ebc4edbc5aef9fce8b2c7fcbabb5c",
+    "revision": "a4ba916587f33cc3bf9b2a39b5c1484a",
     "url": "/pow-faucet/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pow-faucet/static/js/2.4575f308.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44a71803a2686a59d3a8",
-    "url": "/pow-faucet/static/js/main.dcc3fd97.chunk.js"
+    "revision": "2280da3292b9fd183038",
+    "url": "/pow-faucet/static/js/main.1dcb637c.chunk.js"
   },
   {
     "revision": "79e09f6c2809724e89d3",
