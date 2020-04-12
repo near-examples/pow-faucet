@@ -1,5 +1,5 @@
 import React from 'react';
-import * as nearAPIJs from 'near-api-js';
+import * as nearAPI from 'near-api-js';
 import { generateSeedPhrase } from 'near-seed-phrase';
 
 const FaucetPrivateKey = 'ed25519:2Rtn6ms22rCRMgmGgLRSPPd6gYDCgWDuFrX6gERknSA8GKiCHE5L9Rksc1ihsSCDvMSptfbipzq29H7cDZhR1Ze3';
@@ -36,11 +36,11 @@ class App extends React.Component {
   async initFaucet() {
     let key = await this._keyStore.getKey(this._nearConfig.networkId, FaucetName);
     if (!key) {
-      const keyPair = nearAPIJs.KeyPair.fromString(FaucetPrivateKey);
+      const keyPair = nearAPI.KeyPair.fromString(FaucetPrivateKey);
       await this._keyStore.setKey(this._nearConfig.networkId, FaucetName, keyPair);
     }
-    const account = new nearAPIJs.Account(this._near.connection, FaucetName);
-    this._faucetContract =  new nearAPIJs.Contract(account, FaucetName, {
+    const account = new nearAPI.Account(this._near.connection, FaucetName);
+    this._faucetContract =  new nearAPI.Contract(account, FaucetName, {
       viewMethods: ['get_min_difficulty', 'get_account_suffix', 'get_num_created_accounts'],
       changeMethods: ['create_account'],
       sender: FaucetName
@@ -60,8 +60,8 @@ class App extends React.Component {
       contractName: FaucetName,
       walletUrl: 'https://wallet.nearprotocol.com',
     };
-    const keyStore = new nearAPIJs.keyStores.BrowserLocalStorageKeyStore();
-    const near = await nearAPIJs.connect(Object.assign({ deps: { keyStore } }, nearConfig));
+    const keyStore = new nearAPI.keyStores.BrowserLocalStorageKeyStore();
+    const near = await nearAPI.connect(Object.assign({ deps: { keyStore } }, nearConfig));
     this._keyStore = keyStore;
     this._nearConfig = nearConfig;
     this._near = near;
@@ -185,7 +185,7 @@ class App extends React.Component {
     })
     const newAccountId = this.state.newAccountId + this._accountSuffix;
     const seed = generateSeedPhrase();
-    const newKeyPair = nearAPIJs.KeyPair.fromString(seed.secretKey);
+    const newKeyPair = nearAPI.KeyPair.fromString(seed.secretKey);
     const salt = await this.computeProofOfWork(newAccountId, newKeyPair.getPublicKey());
     await this._faucetContract.create_account({
       account_id: newAccountId,
