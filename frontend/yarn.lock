@@ -6749,9 +6749,9 @@ multicast-dns@^6.0.1:
     thunky "^1.0.2"
 
 mustache@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.0.0.tgz#7f02465dbb5b435859d154831c032acdfbbefb31"
-  integrity sha512-FJgjyX/IVkbXBXYUwH+OYwQKqWpFPLaLVESd70yHjSDunwzV2hZOoTBvPf4KLoxesUzzyfTH6F784Uqd7Wm5yA==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/mustache/-/mustache-4.0.1.tgz#d99beb031701ad433338e7ea65e0489416c854a2"
+  integrity sha512-yL5VE97+OXn4+Er3THSmTdCFCtx5hHWzrolvH+JObZnUYwuaG7XV+Ch4fR2cIrcYI0tFHxS7iyFYl14bW8y2sA==
 
 mute-stream@0.0.8:
   version "0.0.8"
@@ -6785,6 +6785,22 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
+near-api-js@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/near-api-js/-/near-api-js-0.23.0.tgz#422108b33ecfd824e645473997ba00c9f45e0bf2"
+  integrity sha512-rGEgQdjtY9JdwaveDOEauB1voH7eTGM41cJettBO8MKbxPl4obCEiaQAhA80TxJ1I8t3LQhvbI6B8+/EitaeUw==
+  dependencies:
+    "@types/bn.js" "^4.11.5"
+    bn.js "^5.0.0"
+    bs58 "^4.0.0"
+    error-polyfill "^0.1.2"
+    http-errors "^1.7.2"
+    js-sha256 "^0.9.0"
+    mustache "^4.0.0"
+    node-fetch "^2.3.0"
+    text-encoding-utf-8 "^1.0.2"
+    tweetnacl "^1.0.1"
+
 near-hd-key@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/near-hd-key/-/near-hd-key-1.0.0.tgz#b18fbbc8d5348a29d226ec8d546ba089afc42ce8"
@@ -6803,22 +6819,6 @@ near-seed-phrase@^0.0.2:
     bs58 "^4.0.1"
     near-hd-key "^1.0.0"
     tweetnacl "^1.0.2"
-
-nearlib@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/nearlib/-/nearlib-0.22.0.tgz#e7e9ed88752fb533c0920720f962f97395ddfec6"
-  integrity sha512-6yTc5Ti5oHFak8GSvuzHF7gTRIXRDIs822LiIqJWqoJ5emWktAZqWowS9taAazfG/joU2H0B3WX5Z46oIv4U0w==
-  dependencies:
-    "@types/bn.js" "^4.11.5"
-    bn.js "^5.0.0"
-    bs58 "^4.0.0"
-    error-polyfill "^0.1.2"
-    http-errors "^1.7.2"
-    js-sha256 "^0.9.0"
-    mustache "^4.0.0"
-    node-fetch "^2.3.0"
-    text-encoding-utf-8 "^1.0.2"
-    tweetnacl "^1.0.1"
 
 negotiator@0.6.2:
   version "0.6.2"
