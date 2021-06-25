@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: cargo
+  directory: "/contract-rs"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: near-sdk
+    versions:
+    - 2.0.1
+    - 3.0.1
+  - dependency-name: serde
+    versions:
+    - 1.0.123
+    - 1.0.124
+    - 1.0.125
+  - dependency-name: borsh
+    versions:
+    - 0.8.1
+    - 0.8.2
+    - 0.9.0
